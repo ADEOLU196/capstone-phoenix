@@ -18,6 +18,7 @@ node-token
 .env.*
 !.env.example
 *secret*.yaml
+!*sealed-secret*.yaml
 !*secret*.example.yaml
 *.pem
 *.key
