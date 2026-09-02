@@ -18,16 +18,24 @@ spec:
       labels:
         app: frontend
     spec:
+      securityContext:
+        seccompProfile:
+          type: RuntimeDefault
       affinity:
         podAntiAffinity:
-          requiredDuringSchedulingIgnoredDuringExecution:
-            - labelSelector:
-                matchLabels:
-                  app: frontend
-              topologyKey: kubernetes.io/hostname
+          preferredDuringSchedulingIgnoredDuringExecution:
+            - weight: 100
+              podAffinityTerm:
+                labelSelector:
+                  matchLabels:
+                    app: frontend
+                topologyKey: kubernetes.io/hostname
       containers:
         - name: frontend
           image: ghcr.io/ts-a-devops/taskapp-frontend:26da2b0
+          securityContext:
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: false
           ports:
             - containerPort: 80
           resources:
