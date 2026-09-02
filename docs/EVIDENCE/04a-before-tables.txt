@@ -1,0 +1,8 @@
+             List of relations
+ Schema |      Name       | Type  |  Owner  
+--------+-----------------+-------+---------
+ public | alembic_version | table | taskapp
+ public | tasks           | table | taskapp
+ public | users           | table | taskapp
+(3 rows)
+
