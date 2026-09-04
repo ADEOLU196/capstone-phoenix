@@ -1,0 +1,12 @@
+NAME                        READY   STATUS      RESTARTS      AGE     IP           NODE            NOMINATED NODE   READINESS GATES
+backend-5dfffb4894-bnbvh    1/1     Running     3 (93s ago)   11m     10.42.2.5    ip-10-0-1-17    <none>           <none>
+backend-5dfffb4894-dpvz4    1/1     Running     2 (93s ago)   3m40s   10.42.0.11   ip-10-0-1-22    <none>           <none>
+backend-5dfffb4894-fgt47    1/1     Running     2 (69s ago)   3m25s   10.42.2.14   ip-10-0-1-17    <none>           <none>
+backend-5dfffb4894-lj2zm    1/1     Running     2 (59s ago)   3m40s   10.42.2.13   ip-10-0-1-17    <none>           <none>
+backend-5dfffb4894-r8slb    1/1     Running     2 (73s ago)   3m25s   10.42.0.12   ip-10-0-1-22    <none>           <none>
+backend-5dfffb4894-ss46t    1/1     Running     4 (85s ago)   11m     10.42.0.9    ip-10-0-1-22    <none>           <none>
+backend-migrate-xsvdh       0/1     Completed   0             10m     10.42.2.9    ip-10-0-1-17    <none>           <none>
+frontend-5b768d7ffb-p7fs9   1/1     Running     0             4m28s   10.42.2.12   ip-10-0-1-17    <none>           <none>
+frontend-5b768d7ffb-pcdk5   1/1     Running     0             11m     10.42.2.7    ip-10-0-1-17    <none>           <none>
+frontend-5b768d7ffb-w7chd   1/1     Running     0             11m     10.42.0.10   ip-10-0-1-22    <none>           <none>
+postgres-0                  1/1     Running     0             4m28s   10.42.1.8    ip-10-0-1-107   <none>           <none>

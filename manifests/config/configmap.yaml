@@ -7,4 +7,4 @@ data:
   DATABASE_HOST: "postgres"
   DATABASE_PORT: "5432"
   DATABASE_NAME: "taskapp"
-  CORS_ORIGINS: "https://taskapp.3.230.145.26.nip.io"
+  CORS_ORIGINS: "https://taskapp.32.192.187.43.nip.io"
